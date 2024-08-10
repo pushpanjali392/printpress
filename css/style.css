@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+}
+
+@font-face{
+    font-family: myriad-pro-cufonfonts;
+    src: url(../font/myriad-pro-cufonfonts/MyriadPro-Light.otf);
+}
+.cmn-btn{
+    padding: 10px 20px;
+    background-color: #385777;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+}
+.cmn-gap{
+    padding: 70px 0px;
+}
+@media (max-width:1440px) {
+    .container{
+        max-width: 1170px;
+        padding: 0px 15px;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/* *navbar respnsive */
+.main-show{
+    background-color: white;
+    width: 100%;
+    padding-right: 20px;
+}
+.child-show{
+    text-align: end;
+}
+.child-show li{
+    display: block;
+}
+.child-show a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar-btn{
+    display: none;
+}
+.main-show{
+    display: none;
+}
+@media (max-width:1200px) and (min-width:01px) {
+    .child-navbar{
+        display: none;
+    }
+    .nav-bar-btn{
+        display: block;
+    }
+    .main-navbar{
+        display: flex!important;
+        justify-content: end!important;
+    }
+}
+/* *navbar respnsive */
+.navbar{
+    height: 150px;
+    width: 100%;
+}
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+}
+.child-navbar li{
+    display: inline;
+}
+.child-navbar a{
+    text-decoration: none;
+    color: #484c53;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* *banneresection */
+.banner-sec{
+    background-image: url("../image/banner\ img.svg");
+    min-height:550px!important;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.child-banner{
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.child-banner span{
+    padding-top: 54px;
+    font-size: 20pt;
+}
+.child-banner h1{
+    font-size: 40px;
+    font-family: "Brygada 1918", serif;
+    padding-bottom: 70px;
+}
+
+/* *cmn-linkss */
+.main-link{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.child-link{
+    padding-top: 50px;
+}
+.link-red{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* *card-section */
+
+.main-card h2{
+    font-size: 53px;
+}
+.child-card img{
+    width: 100%;
+}
+.child-card span{
+   font-size: 20px;
+}
+.child-card{
+    text-align: center;
+}
+.child-card h3{
+   font-size: 27px;
+}
+.child-card .red{
+    font-size: 20px;
+    color: red;
+}
+
+
+/* *cataogry-sec */
+.main-top-cat{
+    display: flex;
+    justify-content: space-between;
+}
+.cat img{
+    width: 100%;
+}
+.child-top-cat h2{
+    font-size: 15px;
+}
+.child-top-cat a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.cat h3{
+    font-size: 25px;
+    text-align: center;
+}
+.cat{
+    text-align: center;
+}
+/* *about */ 
+.child-about h2{
+    padding-bottom: 10px;
+    font-size: 55px;
+}
+.child-about span{
+    color: red;
+}
+.child-about h3{
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: gray;
+    font-weight: normal;
+}
+.child-about h4{
+    padding-bottom: 20px;
+}
+.child-about p{
+    line-height: 30px;
+    /* padding-right: 120px; */
+}
+.child-about h2{
+    font-size: 30px;
+}
+.child-about a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+
+.child-about img{
+    width: 100%;
+    height: 601px;
+}
+@media (max-width:992px) and (min-width:01px) {
+    .child-about{
+         text-align: center;
+    }
+}
+/* *writterc */
+.writter{
+    background-color: #6e7780;
+    min-height: 650px;
+    width: 100%;
+}
+.main-writter{
+    display: flex;
+    justify-content: space-between;
+}
+.child-author img{
+    width: 100%;
+}
+.child-writter h2{
+    font-size: 30px;
+}
+.child-writter{
+    color: white;
+}
+.child-writter h3{
+    font-size: 15px;
+}
+.child-author{
+    text-align: center;
+    color: white;
+}
+.child-author h4{
+    font-size: 25px;
+}
+.my-head{
+    font-family: myriad-pro-cufonfonts;
+    font-weight: 700;
+}
+
+
+/* *form */
+
+.form-sec{
+    background-color: #5b9894;
+}
+.main-form{
+    display: flex;
+    justify-content: space-between;
+}
+.child-form h2{
+    color: white;
+}
+/* .child-form-div{
+    color: white;
+    padding: 5px 30px;
+    background-color: white;
+    border-radius: 100px;
+} */
+.btn{
+    background-color: #385777;
+}
+
+
+
+/* *top-main-noble */
+
+.top-main-noble{
+    display: flex;
+    justify-content: space-between;
+}
+.child-noble-card img{
+  width: 100%;
+}
+.child-noble-card{
+    text-align: center;
+}
+
+/* *bolog */
+
+.child-blog img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* *bhgufvhj */
+
+.child-green{
+    background-color: #609686;
+    min-height: 311px;
+    margin-bottom: 20px;
+}
+.child-orange{
+    background-color: #dc5a36;
+    min-height: 311px;
+}
+.child-blue{
+    background-color: #385776;
+    min-height: 311px;
+}
+.child-purple{
+    background-color: #797ea4;
+    min-height: 311px;
+}
+.box{
+    padding: 50px 20px;
+}
+.box p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* *footer */
+.footer{
+    width: 100%;
+    background-color: white;
+padding-top: 150px;
+}
+.main-footer{
+  width: 100%;
+}
+.child-footer a{
+    text-decoration: none;
+    color: black;
+}
+.child-footer p{
+    color: black;
+}
+.child-footer{
+ 
+}
+.foot{
+    width: 35%;
+}
+@media (max-width:576px) and ( min-width:01px ){
+    .child-copy ul li{
+        display: none!important;
+    }
+    .child-footer{
+        text-align: center;
+    }
+    .child-banner h1{
+        /* font-size: 40px;
+        font-family: "Brygada 1918", serif;
+        padding-bottom: 70px; */
+        color: black;
+    }
+    .child-banner span{
+       color: red;
+    }
+}
+
+.main-copy{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child-copy li{
+    display: inline;
+    padding-left: 15px;
+   
+}
+.child-copy p{
+    color: rgb(87, 85, 85);
+    font-weight: bold;
+}
+.child-copy a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+    font-weight: bold;
+}
